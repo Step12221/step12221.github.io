@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background-image: url(5.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.student {
+    padding: 7px 15px;
+    border-radius: 10px;
+    background-color: rgb(70, 154, 227);
+    color: aliceblue;
+    font-weight: 700;
+    transition: 0.3s;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+}
+
+.student:hover {
+    background: aliceblue;
+    color: rgb(70, 154, 227);
+    border: 2px solid rgb(70, 154, 227);
+}
+
+.teacher:hover {
+    background: aliceblue;
+    color: rgb(58, 65, 147);
+    border: 2px solid rgb(58, 65, 147);
+}
+
+.teacher {
+
+    background-color: rgb(58, 65, 147);
+    padding: 7px 15px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 700;
+    transition: 0.3s;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+}
+
+.stte {
+    width: 300px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.489);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    backdrop-filter: blur(8px);
+
+
+}
+
+.autorization {
+    width: 300px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.489);
+    border-radius: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    backdrop-filter: blur(8px);
+
+}
+
+.autorization input {
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 249);
+    padding: 5px;
+}
+
+.autorization button {
+    background-color: rgb(58, 65, 147);
+    padding: 4px 9px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 700;
+    transition: 0.3s;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+
+}
+
+.autorization button:hover {
+    background: aliceblue;
+    color: rgb(58, 65, 147);
+    border: 2px solid rgb(58, 65, 147);
+}
+
+.tytle {
+    font-family: "Angkor", serif;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    font-size: 85px;
+    user-select: none;
+}
+
+.school {
+    color: rgb(86, 137, 187);
+    text-shadow: -1px -1px 2px black;
+}
+
+.number {
+    color: rgb(66, 74, 188);
+    text-shadow: -1px -1px 2px black;
+}
