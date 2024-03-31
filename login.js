@@ -20,7 +20,7 @@ document.querySelector(".tl").onclick = function () {
                 if (logIn.value === data.login && password.value === data.passoword) {
                     console.log("ok")
                     teacherallowtopass=true
-                    window.location="file:///C:/Users/Stepan/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/controlworks/indexForTeacher.html"
+                    window.location="https://step12221.github.io/indexForTeacher.html"
                 } else {
                     console.log("no")
                 }
