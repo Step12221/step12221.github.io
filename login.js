@@ -21,6 +21,7 @@ document.querySelector(".tl").onclick = function () {
                     console.log("ok")
                     teacherallowtopass=true
                     window.location="https://step12221.github.io/indexForTeacher.html"
+                    window.location.reload()
                 } else {
                     console.log("no")
                 }
