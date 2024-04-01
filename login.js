@@ -17,7 +17,7 @@ document.querySelector(".tl").onclick = function () {
             if (logIn.value != "" && password.value != "") {
                 console.log(data.login)
                 console.log(data.password)
-                if (logIn.value === data.login && password.value === data.passoword) {
+                if (logIn.value == data.login && password.value == data.passoword) {
                     console.log("ok")
                     teacherallowtopass=true
                     window.location="https://step12221.github.io/indexForTeacher.html"
