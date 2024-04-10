@@ -20,7 +20,7 @@ document.querySelector(".tl").onclick = function () {
                 if (logIn.value == data.login && password.value == data.passoword) {
                     console.log("ok")
                     teacherallowtopass=true
-                    window.location="https://step12221.github.io/indexForTeacher.html"
+                    window.location.href="https://step12221.github.io/indexForTeacher.html"
                     window.location.reload()
                 } else {
                     console.log("no")
